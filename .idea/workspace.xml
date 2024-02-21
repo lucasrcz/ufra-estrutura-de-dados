@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2123b774-6e7a-4cc9-ba96-7f56cdbc2ecb" name="Changes" comment="Criação do projeto">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2123b774-6e7a-4cc9-ba96-7f56cdbc2ecb" name="Changes" comment="feature: novas funções para esvaziar e imprimir lista de trás pra frente, e agora o main é interativo">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/ListaDuplamenteEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ListaDuplamenteEncadeada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <updated>1707151765499</updated>
       <workItem from="1707151767205" duration="2363000" />
       <workItem from="1707221067805" duration="2622000" />
-      <workItem from="1708517857676" duration="1338000" />
+      <workItem from="1708517857676" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="Criação do projeto">
       <option name="closed" value="true" />
@@ -84,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707152424346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: novas funções para esvaziar e imprimir lista de trás pra frente, e agora o main é interativo">
+      <option name="closed" value="true" />
+      <created>1708519542392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708519542392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do projeto" />
+    <MESSAGE value="feature: novas funções para esvaziar e imprimir lista de trás pra frente, e agora o main é interativo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: novas funções para esvaziar e imprimir lista de trás pra frente, e agora o main é interativo" />
   </component>
 </project>
