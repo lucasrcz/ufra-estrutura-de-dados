@@ -1,15 +1,48 @@
 import classes.ListaDuplamenteEncadeada;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         ListaDuplamenteEncadeada lista = new ListaDuplamenteEncadeada();
+        String adicionar;
+        do {
+            System.out.println("Deseja realizar uma operação a lista?(Y/N)");
+            adicionar = scanner.next().toUpperCase();
+            if(adicionar.equals("Y")){
+                System.out.println("Deseja adicionar ao inicio(APERTE 1), no fim(APERTE 2)? ou remover um elemento?(APERTE 3)");
+                int operacao = scanner.nextInt();
+                int numero;
+                switch (operacao){
+                    case 1:
+                        System.out.println("Digite o número para adicionar ao inicio da lista:");
+                        numero = scanner.nextInt();
+                        lista.adicionarNoInicio(numero);
+                        lista.imprimirLista();
+                        break;
+                    case 2:
+                        System.out.println("Digite o número para adicionar ao fim da lista:");
+                        numero = scanner.nextInt();
+                        lista.adicionarNoFim(numero);
+                        lista.imprimirLista();
+                        break;
+
+                    case 3:
+                        System.out.println("Digite um elemento que deseja remover da lista:");
+                        numero = scanner.nextInt();
+                        lista.removeElementoDaLista(numero);
+                        lista.imprimirLista();
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }while(!adicionar.equals("N"));
         lista.imprimirLista();
-        lista.adicionarNaFrente(2);
-        lista.adicionarNoFim(45);
-        lista.adicionarNaFrente(30);
-        lista.adicionarNaFrente(10);
-        lista.imprimirLista();
-        lista.removeElementoDaLista(2);
+        lista.imprimirDeTrasParaFrente();
+        lista.esvaziarLista();
         lista.imprimirLista();
     }
 }
